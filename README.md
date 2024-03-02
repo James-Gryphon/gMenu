@@ -58,7 +58,8 @@ Finally, it currently doesn't refresh automatically, as we already discussed.
 If you have a specific complaint about why it's worse that can be fixed while maintaining its goals, then share it. But bear in mind that the purpose here is to allow customization without extensive tweaks (other than to a few names) of dozens of desktop files. Proposals that make things more like they were before aren't likely to be accepted.
 
 *"I put folders in my folders, but they're not showing up in the menu."*
-If they don't show up at the first level or the second level, that's a bug (and shouldn't be possible, from my understanding ot the setup).
+
+If they don't show up at the first level or the second level, that's a bug (and shouldn't be possible, from my understanding of the current script design).
 
 If they don't show up at the third level, that's intentional. Partly it's because I didn't want to take the time to figure out indefinite folder nestings, but mostly it's because submenus aren't ergonomically great, and the deeper you get, the worse they are. I think three levels ought to be more than enough for anyone.
 

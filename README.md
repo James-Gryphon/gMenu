@@ -1,7 +1,7 @@
-# gMenu
+# gMenu v1.0
 Generates .menu files from directory/folder contents
 
-*Last updated March 3. 2024.*
+*Last updated March 3, 2024.*
 ___
 
 ### HISTORY ###

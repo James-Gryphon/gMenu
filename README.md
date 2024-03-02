@@ -61,7 +61,7 @@ If you have a specific complaint about why it's worse that can be fixed while ma
 
 If they don't show up at the first level or the second level, that's a bug (and shouldn't be possible, from my understanding of the current script design).
 
-If they don't show up at the third level, that's intentional. Partly it's because I didn't want to take the time to figure out indefinite folder nestings, but mostly it's because submenus aren't ergonomically great, and the deeper you get, the worse they are. I think three levels ought to be more than enough for anyone.
+If they don't show up at the third level, that's intentional. Partly it's because I didn't want to take the time to figure out indefinite folder nestings, but mostly it's because nested submenus aren't ergonomically great, and the deeper they get, the worse they are. I think three levels ought to be more than enough for anyone.
 
 *"I have x great idea on how this can be improved."*
 

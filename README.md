@@ -1,5 +1,6 @@
 # gMenu
 Generates .menu files from directory/folder contents
+
 *Last updated March 3. 2024.*
 ___
 
@@ -28,24 +29,31 @@ Well, now it does.
 ### ANSWERS TO POSSIBLE QUESTIONS AND STATEMENTS ###
 
 *"Is there a way to get it to refresh automatically?"*
+
 Yes, but I haven't gotten it to work reliably yet, which is why it isn't described in setup.
 
 From my study, it seems running an appropriate inotifywait command on login should make this possible. In practice, it seemed to work for a period of time and then shut down without notice. Since updating menus is a relatively rare operation, I decided it was easier to run the script every time than to fix the problem. I may revisit this problem, though, to save time in the long run.
 
 *"Are desktop files added automatically when I install a package?*
+
 No. This script only looks at the folders you make and the desktop files you provide in those folders, and there's no other script to scan the system for changes. This facilitates customization, at the expense of quicker setup times.
 
 *"Where do I find .desktop files to copy into my folders?"*
+
 By default, .desktop files for applications installed at the system level can be found in `/usr/share/applications`.  You might also find them in `/usr/local/share/applications`, or in `~/.local/share/applications`.
 
 *"I hate the old Apple menu."*
+
 gMenu doesn't work any better (it's actually worse in a few respects), so if you weren't happy before, you won't like this. In this case, skipping this software is the best choice for you.
 
 *"I think this way of managing the menu is worse than the default one, because x reason.*
+
 If you have a specific complaint about why it's worse that can be fixed while maintaining its goals, then share it. But bear in mind that the purpose here is to allow customization without tweaking the contents (other than, at most, the names) of dozens of desktop files. Proposals that make things more like they were before aren't likely to be accepted.
 
 *"I have x great idea on how this can be improved."*
+
 I'd be happy to hear about it. I don't guarantee that I'll change anything, but we'll see how things go.
 
 *"I've implemented some changes and would like to see you adopt them."*
+
 I'd be happy to see what they are; submit a pull request. If it's good, I'll add them, increment the version number, and give you credit somewhere in this read-me and license. If I don't like them, and we can't compromise on the matter, then I guess we'll have duelling versions of this software. ;-) As a matter of courtesy, if you are commenting about your fork of gMenu in some context where it differs from original behavior, it would be best for you to either mention that it is a fork, or to use a different name for your version, or both, so that people aren't confused about what my setup does.

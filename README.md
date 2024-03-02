@@ -3,7 +3,7 @@ Generates .menu files from directory/folder contents
 
 By James Gooch. A middling work (www.middlingworks.com)
 
-*Last updated March 2, 2024.*
+*Last updated March 2, 2024. Subject to editing.*
 ___
 
 ### HISTORY ###

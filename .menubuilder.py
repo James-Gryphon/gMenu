@@ -24,35 +24,28 @@ openingtext = """<!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
     """
 text = ""
 
-# Prelude, Body, Finale
 layout = ""
 includes = ""
 
 var = 0
 scanlist = getdirlist(os.scandir(path))
 folders = []
-print("Folders: ", folders)
 
 for entry in scanlist:
-	print("Entry name: ", entry.name)
 	if entry.is_dir():
 		folders.append(entry)
 		openingtext+= "<AppDir>"""+path+"/"+entry.name+"</AppDir>"""
 openingtext+= '""'
 
 for entry in folders:
-	print(entry.name)
 	if entry.is_dir:
 		contents = getdirlist(os.scandir(path+"/"+entry.name))
 		if(var == 1):
 			if(len(contents) != 0):
-				print("Including separator.")
 				layout+=("\t\t<Separator/>\n")
 			else:
 				var = 0
-		print("Contents:")
 		for content in contents:
-			print(content.name)
 			if content.is_file():
 				tempvar = ("\t\t<Filename>"+content.name+"</Filename>\n")
 				includes+=tempvar

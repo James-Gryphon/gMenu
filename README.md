@@ -43,7 +43,7 @@ By default, .desktop files for applications installed at the system level can be
 
 *"I hate the old Apple menu."*
 
-gMenu doesn't work any better (it's actually worse in a few respects), so if you weren't happy before, you won't like this. In this case, skipping this software is the best choice for you.
+gMenu doesn't work any better (it's actually worse in a few respects), so if you weren't happy before, you won't like this. In this case, skipping this script is the best choice for you.
 
 *"How is it worse than the Apple menu?"*
 
@@ -55,7 +55,7 @@ Finally, it currently doesn't refresh automatically, as we already discussed.
 
 *"I think this way of managing the menu is worse than the default one, because x reason."*
 
-If you have a specific complaint about why it's worse that can be fixed while maintaining its goals, then share it. But bear in mind that the purpose here is to allow customization without extensive tweaks (other than to a few names) of dozens of desktop files. Proposals that make things more like they were before aren't likely to be accepted.
+If you have a specific complaint about why it's worse that can be fixed while maintaining its goals, then share it. But bear in mind that the purpose here is to allow customization without needing extensive tweaks (other than to a few names) to dozens of desktop files. Proposals that make things more like they were before aren't likely to be accepted.
 
 *"I put folders in my folders, but they're not showing up in the menu."*
 
@@ -69,4 +69,4 @@ I'd be happy to hear about it. I don't guarantee that I'll change anything, but 
 
 *"I've implemented some changes and would like to see you adopt them."*
 
-I'd be happy to see what they are; submit a pull request. If it's good, I'll add them, increment the version number, and give you credit somewhere in this read-me and license. If I don't like them, and we can't compromise on the matter, then I guess we'll have duelling versions of this software! As a matter of courtesy, if you are commenting about your fork of gMenu in some context where it differs from original behavior, it would be best for you to either mention that it is a fork, or to use a different name for your version, or both, so that people aren't confused about what this setup does.
+I'd be happy to see what they are; submit a pull request. If it's good, I'll add them, increment the version number, and give you credit somewhere in this read-me and license. If I don't like them, and we can't compromise on the matter, then I guess we'll have duelling versions of this script! As a matter of courtesy, if you are commenting about your fork of gMenu in some context where it differs from original behavior, it would be best for you to either mention that it is a fork, or to use a different name for your version, or both, so that people aren't confused about what this setup does.

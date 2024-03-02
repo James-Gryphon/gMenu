@@ -32,7 +32,7 @@ Well, now it does.
 
 Yes, but I haven't gotten it to work reliably yet, which is why it isn't described in setup.
 
-From my study, it seems running an appropriate inotifywait command on login should make this possible. In practice, it seemed to work for a period of time and then shut down without notice. Since updating menus is a relatively rare operation, I decided it was easier to run the script every time than to fix the problem. I may revisit this problem, though, to save time in the long run.
+From my study, it seems running an appropriate inotifywait command on login should make this possible. In practice, it seemed to work for a period of time and then shut down without notice. Since updating menus is a relatively rare operation, I decided it was easier to run the script every time than to fix the problem. I may revisit this, though, to save time in the long run.
 
 *"Are desktop files added automatically when I install a package?*
 

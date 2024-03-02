@@ -1,7 +1,7 @@
 # gMenu v1.0
 Generates .menu files from directory/folder contents
 
-By James Gooch. A Middling Work (www.middlingworks.com)
+By James Gooch. A middling work (www.middlingworks.com)
 
 *Last updated March 2, 2024.*
 ___

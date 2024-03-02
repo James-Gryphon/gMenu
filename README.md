@@ -19,8 +19,8 @@ Well, now it does.
 
 ### INSTALLATION ###
 1. Create a gMenu folder in your home directory. Copy .menu_builder.py into it.
-2. Create at least one folder inside the gMenu folder. In alphabetical order, each folder's contents will be listed, with separator bars dividing the contents of each folder on the menu.
-3. Copy or create .desktop files (or folders) into the nested gMenu folders. They will be listed in alphabetical order, according to their file names, so be sure to rename them in a way you find appropriate. For example, `org.xfce.mousepad.desktop` might be renamed `Mousepad.desktop`.
+2. Create at least one folder inside the gMenu folder. Each folder, in alphabetical order, will have its contents listed on the menu, with separator bars dividing the contents of each folder.
+3. Copy or create .desktop files (or folders) into the nested gMenu folders. They will be listed in alphabetical order in their folder's area, according to their file names, so be sure to rename them in a way you find appropriate. For example, `org.xfce.mousepad.desktop` might be renamed `Mousepad.desktop`.
 4. Run .menubuilder.py. If everything is well, it should create a .gMenu.menu file.
 5. Edit the properties of your application menu, and select the new .menu file as your custom menu file.
 6. Open the menu. If things look as they should, you're done. If not, make any changes needed to folders and desktop files and perform steps 4 and 5 again.

@@ -43,6 +43,12 @@ No. This script only looks at the folders you make and the desktop files you pro
 
 By default, .desktop files for applications installed at the system level can be found in `/usr/share/applications`.  You might also find them in `/usr/local/share/applications`, or in `~/.local/share/applications`.
 
+*"I put folders in my folders, but they're not showing up in the menu."*
+
+If they don't show up at the first level or the second level, that's a bug (and shouldn't be possible, from my understanding of the current script design).
+
+If they don't show up at the third level, that's intentional. Partly it's because I didn't want to take the time to figure out indefinite folder nestings, but mostly it's because nested submenus aren't ergonomically great, and the deeper they get, the worse they are. I think three levels ought to be more than enough for anyone.
+
 *"I hate the old Apple menu."*
 
 gMenu doesn't work any better (it's actually worse in a few respects), so if you weren't happy before, you won't like this. In this case, skipping this script is the best choice for you.
@@ -58,12 +64,6 @@ Finally, it currently doesn't refresh automatically, as we already discussed.
 *"I think this way of managing the menu is worse than the default one, because x reason."*
 
 If you have a specific complaint about why it's worse that can be fixed while maintaining its goals, then share it. But bear in mind that the purpose here is to allow customization without needing extensive tweaks (other than to a few names) to dozens of desktop files. Proposals that make things more like they were before aren't likely to be accepted.
-
-*"I put folders in my folders, but they're not showing up in the menu."*
-
-If they don't show up at the first level or the second level, that's a bug (and shouldn't be possible, from my understanding of the current script design).
-
-If they don't show up at the third level, that's intentional. Partly it's because I didn't want to take the time to figure out indefinite folder nestings, but mostly it's because nested submenus aren't ergonomically great, and the deeper they get, the worse they are. I think three levels ought to be more than enough for anyone.
 
 *"I have x great idea on how this can be improved."*
 

@@ -15,17 +15,14 @@ Well, now it does.
 
 ### PREREQUISITES ###
 1. Python 3.9+, since 3.9 is the version I first built and tested it under. Earlier versions may work but are untested.
-2. A desktop environment that uses application menus. Xfce is preferred because it is known to support custom application menus in the GUI. This may work with other environments, but this is currently untested and unsupported.
+2. The Xfce "Applications Menu" panel applet. This is preferred because it is known to support custom application menus in the GUI. This software may be adaptable to other environments with a similar menu option, but this is currently untested and unsupported.
 
 ### INSTALLATION ###
 1. Create a gMenu folder in your home directory. Copy .menu_builder.py into it.
-2. Create at least one folder inside the gMenu folder. The folder contents be listed in alphabetical order, with separator bars dividing the contents of each folder on the menu.
-3. Copy or create .desktop files into the nested gMenu folders. They will be listed in alphabetical order, with the names given to their desktop files, so be sure to rename them in a way you find appropriate. For example, `org.xfce.mousepad.desktop` might be renamed `Mousepad.desktop`.
+2. Create at least one folder inside the gMenu folder. In alphabetical order, each folder's contents will be listed, with separator bars dividing the contents of each folder on the menu.
+3. Copy or create .desktop files (or folders) into the nested gMenu folders. They will be listed in alphabetical order, according to their file names, so be sure to rename them in a way you find appropriate. For example, `org.xfce.mousepad.desktop` might be renamed `Mousepad.desktop`.
 4. Run .menubuilder.py. If everything is well, it should create a .gMenu.menu file.
-5. If using Xfce, edit the properties of your application menu, and select the new .menu file as your custom menu file.
-
-  For an environment that doesn't support custom menu file selection in the GUI, you will have to research where .menu files are located in your environment, and if they can be read from local user directories (as opposed to editing protected system files). In the worst-case scenario, you can always rename the .gMenu.menu file and replace the default menu with it (if you do this, I strongly recommend renaming the old file to something else first, so that it isn't permanently destroyed). Further instructions may be provided as I have time to experiment with these systems, or get feedback from users.
-
+5. Edit the properties of your application menu, and select the new .menu file as your custom menu file.
 6. Open the menu. If things look as they should, you're done. If not, make any changes needed to folders and desktop files and perform steps 4 and 5 again.
 
 ### ANSWERS TO POSSIBLE QUESTIONS AND STATEMENTS ###
@@ -48,9 +45,22 @@ By default, .desktop files for applications installed at the system level can be
 
 gMenu doesn't work any better (it's actually worse in a few respects), so if you weren't happy before, you won't like this. In this case, skipping this software is the best choice for you.
 
-*"I think this way of managing the menu is worse than the default one, because x reason.*
+*"How is it worse than the Apple menu?"*
 
-If you have a specific complaint about why it's worse that can be fixed while maintaining its goals, then share it. But bear in mind that the purpose here is to allow customization without tweaking the contents (other than, at most, the names) of dozens of desktop files. Proposals that make things more like they were before aren't likely to be accepted.
+The main reason is that it requires special files in the first place. The Classic menu could contain actual programs, aliases (in Linux, symlinks), documents, or folders, and allow you to run any of them in the appropriate way. This only supports folders and .desktop files.
+
+Although gMenu uses the file name for sorting, Xfce displays the names used in the .desktop file on the menu, so you may have to edit both the file name and the file contents to get it to show up in the right order with the name you want.
+
+Finally, it currently doesn't refresh automatically, as we already discussed.
+
+*"I think this way of managing the menu is worse than the default one, because x reason."*
+
+If you have a specific complaint about why it's worse that can be fixed while maintaining its goals, then share it. But bear in mind that the purpose here is to allow customization without extensive tweaks (other than to a few names) of dozens of desktop files. Proposals that make things more like they were before aren't likely to be accepted.
+
+*"I put folders in my folders, but they're not showing up in the menu."*
+If they don't show up at the first level or the second level, that's a bug (and shouldn't be possible, from my understanding ot the setup).
+
+If they don't show up at the third level, that's intentional. Partly it's because I didn't want to take the time to figure out indefinite folder nestings, but mostly it's because submenus aren't ergonomically great, and the deeper you get, the worse they are. I think three levels ought to be more than enough for anyone.
 
 *"I have x great idea on how this can be improved."*
 

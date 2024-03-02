@@ -1,6 +1,8 @@
 # gMenu v1.0
 Generates .menu files from directory/folder contents
 
+By James Gooch. A Middling Work (www.middlingworks.com)
+
 *Last updated March 3, 2024.*
 ___
 
@@ -56,4 +58,4 @@ I'd be happy to hear about it. I don't guarantee that I'll change anything, but 
 
 *"I've implemented some changes and would like to see you adopt them."*
 
-I'd be happy to see what they are; submit a pull request. If it's good, I'll add them, increment the version number, and give you credit somewhere in this read-me and license. If I don't like them, and we can't compromise on the matter, then I guess we'll have duelling versions of this software. ;-) As a matter of courtesy, if you are commenting about your fork of gMenu in some context where it differs from original behavior, it would be best for you to either mention that it is a fork, or to use a different name for your version, or both, so that people aren't confused about what my setup does.
+I'd be happy to see what they are; submit a pull request. If it's good, I'll add them, increment the version number, and give you credit somewhere in this read-me and license. If I don't like them, and we can't compromise on the matter, then I guess we'll have duelling versions of this software! As a matter of courtesy, if you are commenting about your fork of gMenu in some context where it differs from original behavior, it would be best for you to either mention that it is a fork, or to use a different name for your version, or both, so that people aren't confused about what this setup does.

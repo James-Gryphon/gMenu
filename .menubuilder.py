@@ -1,3 +1,7 @@
+# gMenu v1.0 - a middling work by James Gooch
+# This is under an MIT License. If not included in this directory, a copy can be found in the home repository's LICENSE file.
+# https://github.com/James-Gryphon/gMenu/
+
 import os
 import operator
 

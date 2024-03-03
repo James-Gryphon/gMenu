@@ -20,7 +20,7 @@ Well, now it does.
 2. The Xfce "Applications Menu" panel applet. This is preferred because it is known to support custom application menus in the GUI. This software may be adaptable to other environments with a similar menu option, but this is currently untested and unsupported.
 
 ### INSTALLATION ###
-1. Create a gMenu folder in your home directory. Copy .menu_builder.py into it.
+1. Create a gMenu folder in your home directory. Copy .menubuilder.py into it.
 2. Create at least one folder inside the gMenu folder. Each folder, in alphabetical order, will have its contents listed on the menu, with separator bars dividing the contents of each folder.
 3. Copy or create .desktop files (or folders) into the nested gMenu folders. They will be listed in alphabetical order in their folder's area, according to their file names, so be sure to rename them in a way you find appropriate. For example, `org.xfce.mousepad.desktop` might be renamed `Mousepad.desktop`.
 4. Run .menubuilder.py. If everything is well, it should create a .gMenu.menu file.
